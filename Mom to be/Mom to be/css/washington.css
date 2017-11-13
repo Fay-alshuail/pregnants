@@ -155,16 +155,13 @@ a {
 .slide {
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: url('../images/photo-1428976365951-b70e0fa5c551.jpg');
+  background-image: url('../images/yoga.jpg');
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide.bg2 {
-  background-image: url('../images/photo-1421757295538-9c80958e75b0.jpg');
-}
-.slide.bg3 {
-  background-image: url('../images/photo-1429032021766-c6a53949594f (1).jpg');
+  background-image: url('../images/exercise1.jpg');
 }
 .list {
   padding-left: 0px;
@@ -714,16 +711,17 @@ a {
 .image-new {
   position: relative;
   height: 200px;
-  background-image: url('../images/photo-1421757295538-9c80958e75b0.jpg');
+  background-image: url('../images/yoga.jpg');
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .image-new.bg1 {
-  background-image: url('../images/photo-1413977886085-3bbbf9a7cf6e.jpg');
+  height: 220px;
+  background-image: url('../images/eat.jpg');
 }
 .image-new.bg2 {
-  background-image: url('../images/Y51aFguqRcGTgsYRYBXV_20140104_085932.jpg');
+  background-image: url('../images/care.jpg');
 }
 .text-new {
   padding: 20px;
