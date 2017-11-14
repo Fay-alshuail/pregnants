@@ -163,6 +163,19 @@ a {
 .slide.bg2 {
   background-image: url('../images/exercise1.jpg');
 }
+
+.slide.s1 {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url('../images/weak14.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide.s2 {
+  background-image: url('../images/weakk14.jpg');
+}
+
 .list {
   padding-left: 0px;
   background-color: white;
