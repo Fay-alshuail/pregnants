@@ -405,7 +405,7 @@ a {
   font-size: 12px;
 }
 .input-form:focus {
-  border-bottom-color: #4fd2c2;
+  border-bottom-color: #b30059;
 }
 .input-form.left {
   width: 100%;
@@ -496,8 +496,13 @@ a {
   border-radius: 15px;
 }
 .radio-bullet-replacement.checked {
-  border-color: #4fd2c2;
-  background-color: #4fd2c2;
+  border-color: #9ec9ed;
+  background-color: #9ec9ed;
+}
+
+.radio-bullet-replacement.girl.checked {
+  border-color: #db95b8;
+  background-color: #db95b8;
 }
 .checkbox-field {
   position: relative;
@@ -515,7 +520,7 @@ a {
   transition: all 150ms ease-out;
 }
 .checkbox-label.checked {
-  background-color: #b6e3de;
+  background-color: #db95b8;
 }
 .checkbox-handle {
   position: absolute;
@@ -527,7 +532,7 @@ a {
   transition: all 150ms ease-out;
 }
 .checkbox-handle.checked {
-  background-color: #4fd2c2;
+  background-color: #b30059;
   -webkit-transform: translate(16px, 0px);
   -ms-transform: translate(16px, 0px);
   transform: translate(16px, 0px);
