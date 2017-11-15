@@ -155,11 +155,16 @@
             <div class="grey-header">
               <h2 class="grey-heading-title">Header</h2>
             </div>
+
             <div class="container">
+
               <div class="row">
 
               <hr>
-              <h2>Appointment Booking </h2>
+              <br>
+              <br>
+              <h>Appointment Booking </h>
+              <br>
               <div class="row">
                 <div class="col-xss-4">
                   <div id="glob-data" data-toggle="calendar"></div>
@@ -167,8 +172,11 @@
               </div>
 
               </div>
+              <br>
               <form method="post" action="#">
-              <input type="submit" value="Send" onclick=do()>
+              <center><input type="submit" value="Send"></center>
+              <br>
+                <center><input type="submit" value="back" onclick="history.go(-1);"/></center>
         </form>
           </div>
       </div>
