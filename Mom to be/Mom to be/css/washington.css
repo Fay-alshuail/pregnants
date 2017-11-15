@@ -403,6 +403,7 @@ a {
   float: left;
   line-height: 36px;
 }
+
 .input-form {
   display: inline-block;
   width: 100%;
@@ -416,6 +417,24 @@ a {
   background-color: transparent;
   color: #222;
   font-size: 12px;
+}
+.w-input.input-form.enter {
+  margin-bottom: 0px;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 1px;
+  width: 45%;
+}
+.w-input.input-form.enter.right
+input[type="time"]{
+  margin-bottom: 0px;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 1px;
+  width: 45%;
+  float: right;
 }
 .input-form:focus {
   border-bottom-color: #b30059;
