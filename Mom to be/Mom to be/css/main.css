@@ -205,7 +205,7 @@ a {
   background-color: #f7f7f7;
 }
 .list-item.highlighted {
-  border-left: 3px solid #4fd2c2;
+  border-left: 3px solid #db95b8;
 }
 .icon-list {
   display: inline-block;
@@ -218,7 +218,7 @@ a {
   text-align: center;
 }
 .icon-list.highlighted {
-  color: #4fd2c2;
+  color: #db95b8;
 }
 .title-list {
   display: inline-block;
@@ -494,7 +494,7 @@ input[type="time"]{
 }
 .sub-title-small {
   padding-top: 6px;
-  color: #333;
+  color: white;
   font-size: 11px;
 }
 .w50 {
