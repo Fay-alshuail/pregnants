@@ -3,12 +3,12 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>ToDo List</title>
+  <title>Notifications</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  
+
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/framework.css">
-  <link rel="stylesheet" type="text/css" href="css/washington.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <script src="js/webfont.js"></script>
   <script>
     WebFont.load({
@@ -18,8 +18,8 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/logoStandford32.ico">
-  <link rel="apple-touch-icon" href="images/logoStandford32.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="images/W.png">
+  <link rel="apple-touch-icon" href="images/W.png">
 
   <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -140,7 +140,7 @@
             <div class="separator-bottom"></div>
           </nav>
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">To-do List</div>
+          <div class="navbar-title">Notifications</div>
           <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
             <div class="navbar-button-icon home-icon">
               <div class="bar-home-icon"></div>
@@ -148,101 +148,66 @@
               <div class="bar-home-icon"></div>
             </div>
           </div>
-          <a class="w-inline-block navbar-button right" href="addnew.html" data-loader="1">
-            <div class="navbar-button-icon icon ion-ios-plus-empty"></div>
-          </a>
         </div>
       </div>
       <div class="body">
-        <div class="hero-image">
-          <div class="hero-image-title">
-            <h2>Goals</h2>
-            <div class="sub-title-small">&nbsp;3 of 10 tasks &nbsp;|&nbsp;&nbsp;75% completed</div>
-          </div>
-          <div class="hero-image-img"><img src="images/photo-1429032021766-c6a53949594f.jpg">
-          </div>
-        </div>
-        <ul class="list">
-          <li class="list-item grey highlighted" data-ix="list-item">
-            <a class="w-clearfix w-inline-block highlighted" href="#">
-              <div class="icon-list highlighted">
-                <div class="icon ion-ios-checkmark-empty"></div>
+        <ul class="list list-messages">
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/report.png">
+                </div>
               </div>
-              <div class="title-list">Create a Website</div>
+              <div class="column-right">
+                <div class="message-title">Report</div>
+                <div class="message-text">Your lab test is available</div>
+              </div>
             </a>
           </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/pills.png">
+                </div>
               </div>
-              <div class="title-list">Buy a new car</div>
+              <div class="column-right">
+                <div class="message-title">Medicines</div>
+                <div class="message-text">Time to take your suppliments</div>
+              </div>
             </a>
           </li>
-          <li class="list-item grey highlighted" data-ix="list-item">
-            <a class="w-clearfix w-inline-block highlighted" href="#">
-              <div class="icon-list highlighted">
-                <div class="icon ion-ios-checkmark-empty"></div>
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/news.png">
+                </div>
               </div>
-              <div class="title-list">Call Mom</div>
+              <div class="column-right">
+                <div class="message-title">Articles</div>
+                <div class="message-text">A new article is available</div>
+              </div>
             </a>
           </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
+        </li>
+        <li class="list-message" data-ix="list-item">
+            <div class="w-clearfix column-left">
+              <div class="image-message"><img src="images/chat.png">
               </div>
-              <div class="title-list">Go to gym</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
+            </div>
+            <div class="column-right">
+              <div class="message-title">Chat</div>
+              <div class="message-text">A new message</div>
+            </div>
+          </a>
+        </li>
+        <li class="list-message" data-ix="list-item">
+            <div class="w-clearfix column-left">
+              <div class="image-message"><img src="images/calendar.png">
               </div>
-              <div class="title-list">Increase Sales Revenue</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Hire New Developer</div>
-            </a>
-          </li>
-          <li class="list-item grey highlighted" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list highlighted">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list highlighted">Define new Strategy</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Develop new Marketing Campaign</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Hire Accountant</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Meet John</div>
-            </a>
-          </li>
+            </div>
+            <div class="column-right">
+              <div class="message-title">Appointments</div>
+              <div class="message-text">Your Appointment is confirmed</div>
+            </div>
+          </a>
+        </li>
         </ul>
       </div>
     </div>
