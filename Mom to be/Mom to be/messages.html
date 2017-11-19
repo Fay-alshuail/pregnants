@@ -3,12 +3,12 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>About Us</title>
+  <title>Notifications</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/framework.css">
-  <link rel="stylesheet" type="text/css" href="css/washington.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <script src="js/webfont.js"></script>
   <script>
     WebFont.load({
@@ -18,8 +18,8 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/w.png">
-  <link rel="apple-touch-icon" href="images/w.png">
+  <link rel="shortcut icon" type="image/x-icon" href="images/W.png">
+  <link rel="apple-touch-icon" href="images/W.png">
 
   <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -140,7 +140,7 @@
             <div class="separator-bottom"></div>
           </nav>
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">&nbsp;</div>
+          <div class="navbar-title">Notifications</div>
           <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
             <div class="navbar-button-icon home-icon">
               <div class="bar-home-icon"></div>
@@ -150,21 +150,65 @@
           </div>
         </div>
       </div>
-      <div class="body padding">
-        <div class="bottom-section padding text-centered">
-          <div class="logo-login smaller"></div>
-          <div class="text-centered">
-            <h5>Mom To Be</h5>
-          </div>
-          <div class="version-text">Version: 1.0</div>
-          <p>Built by Survivors Team
-            <br>Mom To Be App, Health-care information system . Can be used with IOS, Android and even for mobile web.</p>
-          <div class="separator-button"></div>
-          <div class="separator-button"></div><a class="action-button grey" href="#">Rate this App</a>
-          <div class="separator-button"></div>
-          <div class="link-upper">© 2017 W-Hospital</div>
-          <div class="separator-bottom"></div>
-        </div>
+      <div class="body">
+        <ul class="list list-messages">
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/report.png">
+                </div>
+              </div>
+              <div class="column-right">
+                <div class="message-title">Report</div>
+                <div class="message-text">Your lab test is available</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/pills.png">
+                </div>
+              </div>
+              <div class="column-right">
+                <div class="message-title">Medicines</div>
+                <div class="message-text">Time to take your suppliments</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/news.png">
+                </div>
+              </div>
+              <div class="column-right">
+                <div class="message-title">Articles</div>
+                <div class="message-text">A new article is available</div>
+              </div>
+            </a>
+          </li>
+        </li>
+        <li class="list-message" data-ix="list-item">
+            <div class="w-clearfix column-left">
+              <div class="image-message"><img src="images/chat.png">
+              </div>
+            </div>
+            <div class="column-right">
+              <div class="message-title">Chat</div>
+              <div class="message-text">A new message</div>
+            </div>
+          </a>
+        </li>
+        <li class="list-message" data-ix="list-item">
+            <div class="w-clearfix column-left">
+              <div class="image-message"><img src="images/calendar.png">
+              </div>
+            </div>
+            <div class="column-right">
+              <div class="message-title">Appointments</div>
+              <div class="message-text">Your Appointment is confirmed</div>
+            </div>
+          </a>
+        </li>
+        </ul>
       </div>
     </div>
     <div class="page-content loading-mask" id="new-stack">
