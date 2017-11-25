@@ -3,9 +3,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>ReportS</title>
+  <title>Elements</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/framework.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -18,8 +17,8 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/w.png">
-  <link rel="apple-touch-icon" href="images/w.png">
+  <link rel="shortcut icon" type="image/x-icon" href="images/logoStandford32.ico">
+  <link rel="apple-touch-icon" href="images/logoStandford32.ico">
 
   <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -27,7 +26,7 @@
   <section class="w-section mobile-wrapper">
 
     <div class="page-content" id="main-stack">
-      <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-easing="ease-out-quint" data-no-scroll="1">
+      <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-no-scroll="1" data-easing="ease-out-quint">
         <div class="w-container">
           <nav class="w-nav-menu nav-menu" role="navigation">
             <div class="nav-menu-header">
@@ -140,7 +139,7 @@
             <div class="separator-bottom"></div>
           </nav>
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">REPORTS</div>
+          <div class="navbar-title">Settings</div>
           <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
             <div class="navbar-button-icon home-icon">
               <div class="bar-home-icon"></div>
@@ -151,70 +150,35 @@
         </div>
       </div>
       <div class="body">
-        <div class="w-tabs" data-duration-in="400" data-duration-out="400" data-easing="ease-out-quint">
-          <div class="w-tab-menu top-buttons">
-            <a class="w-tab-link w--current w-inline-block toolbar-top-button" data-w-tab="Tab 1">
-              <div>Lab & Radiology</div>
-            </a>
-            <a class="w-tab-link w-inline-block toolbar-top-button" data-w-tab="Tab 2">
-              <div>Prescription</div>
-            </a>
-          </div>
-          <div class="w-tab-content tabs-content">
-            <div class="w-tab-pane w--tab-active w-clearfix tab-pane" data-w-tab="Tab 1">
-              <div class="group-block">
-                <a class="w-inline-block" href="news.html" data-load="1">
-                  <div class="group-image"></div>
-                  <div class="group-title">
-                    <div class="title-text">Lab Result</div>
-                  </div>
-                </a>
-              </div>
-              <div class="group-block last">
-                <a class="w-inline-block" href="news.html" data-load="1">
-                  <div class="group-image bg1"></div>
-                  <div class="group-title">
-                    <div class="title-text">Radiology</div>
-                  </div>
-                </a>
-              </div>
+        <div class="news-container item-new">
+          <div>
+            <div class="grey-header">
+              <h2 class="grey-heading-title">Header</h2>
             </div>
-            <div class="w-tab-pane tab-pane" data-w-tab="Tab 2">
-              <div class="group-block">
-                <a class="w-inline-block" href="news.html" data-load="1">
-                  <div class="group-image bg4"></div>
-                  <div class="group-title">
-                    <div class="title-text">Iron</div>
-                  </div>
-                </a>
+
+            <div class="container">
+
+              <div class="row">
+
+              <hr>
+              <br>
+              <br>
+              <h>Appointment Booking </h>
+              <br>
+              <div class="row">
+                <div class="col-xss-4">
+                  <div id="glob-data" data-toggle="calendar"></div>
+                </div>
               </div>
-              <div class="group-block last">
-                <a class="w-inline-block" href="news.html" data-load="1">
-                  <div class="group-image bg5"></div>
-                  <div class="group-title">
-                    <div class="title-text">Supplements</div>
-                  </div>
-                </a>
+
               </div>
-              <div class="group-block">
-                <a class="w-inline-block" href="news.html" data-load="1">
-                  <div class="group-image bg2"></div>
-                  <div class="group-title">
-                    <div class="title-text">Navidoxine</div>
-                  </div>
-                </a>
-              </div>
-              <div class="group-block last">
-                <a class="w-inline-block" href="news.html" data-load="1">
-                  <div class="group-image bg3"></div>
-                  <div class="group-title">
-                    <div class="title-text">Folic Acid</div>
-                  </div>
-                </a>
-              </div>
-            </div>
+              <br>
+              <form method="post" action="#">
+              <center><input type="submit" value="Send"></center>
+              <br>
+                <center><input type="submit" value="back" onclick="history.go(-1);"/></center>
+        </form>
           </div>
-        </div>
       </div>
     </div>
     <div class="page-content loading-mask" id="new-stack">
@@ -225,7 +189,20 @@
     <div class="shadow-layer"></div>
   </section>
   <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/framework.js"></script>
-  <!--[if lte IE 9]><script src="js/placeholders.min.js"></script><![endif]-->
-</body>
-</html>
+  <script type="text/javascript" src="js/dateTimePicker.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function()
+  {
+
+
+    $('#glob-data').calendar(
+    {
+      unavailable: ['*-*-20', '*-*-10']
+    });
+
+  });
+  </script>
+
+
+  </body>
+  </html>
