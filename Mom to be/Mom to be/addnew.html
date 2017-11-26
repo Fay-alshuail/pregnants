@@ -30,7 +30,7 @@
       <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-easing="ease-out-quint" data-no-scroll="1">
         <div class="w-container">
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">Add my medecine</div>
+          <div class="navbar-title">Add New Medecine</div>
           <a class="w-inline-block navbar-button right bigger" href="todo-list.html" data-load="1">
             <div class="navbar-button-icon icon ion-ios-checkmark-empty"></div>
           </a>
@@ -57,40 +57,39 @@
               <div class="separator-fields"></div>
             </div>
             <div class="row-input-list">
-              <label class="label-form" for="birthday-field">DATE</label>
+              <label class="label-form" for="birthday-field">START DATE</label>
               <input class="w-input input-form" id="medecine-field" type="date" name="birthday" data-name="birthday" required="required">
               <div class="separator-fields"></div>
             </div>
             <div class="w-clearfix">
-              <div class="row-input-list w50 left">
-                <label class="label-form" for="birthday-field">FROM</label>
-                <input class="w-input input-form" id="medecine-field" type="time" name="birthday" data-name="birthday" required="required">
-                <div class="separator-fields"></div>
-              </div>
               <div class="row-input-list w50">
-                <label class="label-form" for="birthday-field">TO</label>
+                <label class="label-form" for="birthday-field">DURATION</label>
                 <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required">
                 <div class="separator-fields"></div>
               </div>
+              <div class="row-input-list w50 left">
+                <label class="label-form" for="birthday-field">TIME</label>
+                <input class="w-input input-form" id="medecine-field" type="time" name="birthday" data-name="birthday" required="required">
+                <div class="separator-fields"></div>
+              </div>
             </div>
             <div class="row-input-list">
-              <div class="w-clearfix input-form one-line">
-                <label class="label-form middle" for="email">PRIORITY</label>
+                <label class="label-form middle" for="email">TIMES A DAY </label>
                 <div class="w-clearfix radios-container">
                   <div class="w-radio w-clearfix radio-button">
-                    <div class="radio-bullet-replacement"></div>
+                    <div class="radio-bullet-replacement girl"></div>
                     <input class="w-radio-input radio-bullet" id="node-9" type="radio" name="Radio3" value="2" data-name="Radio3">
-                    <label class="w-form-label" for="node-9">High</label>
+                    <label class="w-form-label" for="node-9">3</label>
                   </div>
                   <div class="w-radio w-clearfix radio-button">
-                    <div class="radio-bullet-replacement checked"></div>
+                    <div class="radio-bullet-replacement girl checked"></div>
                     <input class="w-radio-input radio-bullet" id="node-6" type="radio" name="Radio3" value="1" data-name="Radio3">
-                    <label class="w-form-label" for="node-6">Mid</label>
+                    <label class="w-form-label" for="node-6">2</label>
                   </div>
                   <div class="w-radio w-clearfix radio-button">
-                    <div class="radio-bullet-replacement"></div>
+                    <div class="radio-bullet-replacement girl "></div>
                     <input class="w-radio-input radio-bullet" id="node-5" type="radio" name="Radio3" value="0" data-name="Radio3">
-                    <label class="w-form-label" for="node-5">Low</label>
+                    <label class="w-form-label" for="node-5">1</label>
                   </div>
                 </div>
               </div>
@@ -98,18 +97,30 @@
             </div>
             <div class="row-input-list">
               <div class="w-clearfix input-form one-line">
-                <label class="label-form middle" for="email">ALL&nbsp;DAY</label>
+                <label class="label-form middle" for="email">EVREY</label>
                 <div class="w-clearfix radios-container">
-                  <div class="w-checkbox w-clearfix checkbox-field">
-                    <div class="checkbox-handle"></div>
-                    <input class="w-checkbox-input checkbox-input" id="checkbox" type="checkbox" name="checkbox" data-name="Checkbox">
-                    <label class="w-form-label checkbox-label" for="checkbox"></label>
+                  <div class="w-radio w-clearfix radio-button">
+                    <div class="radio-bullet-replacement girl"></div>
+                    <input class="w-radio-input radio-bullet" id="node-9" type="radio" name="Radio3" value="2" data-name="Radio3">
+                    <label class="w-form-label" for="node-9">12 H</label>
+                  </div>
+                  <div class="w-radio w-clearfix radio-button">
+                    <div class="radio-bullet-replacement girl checked"></div>
+                    <input class="w-radio-input radio-bullet" id="node-6" type="radio" name="Radio3" value="1" data-name="Radio3">
+                    <label class="w-form-label" for="node-6">8 H</label>
+                  </div>
+                  <div class="w-radio w-clearfix radio-button">
+                    <div class="radio-bullet-replacement girl "></div>
+                    <input class="w-radio-input radio-bullet" id="node-5" type="radio" name="Radio3" value="0" data-name="Radio3">
+                    <label class="w-form-label" for="node-5">6 H</label>
                   </div>
                 </div>
               </div>
               <div class="separator-fields"></div>
             </div>
             <div class="row-input-list">
+              <div class="separator-fields"></div>
+            </div>
               <div class="w-clearfix input-form one-line last">
                 <label class="label-form middle" for="email">REPEAT</label>
                 <div class="w-clearfix radios-container">

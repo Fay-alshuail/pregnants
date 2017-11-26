@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Settings</title>
+  <title>Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -140,7 +140,7 @@
             <div class="separator-bottom"></div>
           </nav>
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">Settings</div>
+          <div class="navbar-title">PROFILE</div>
           <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
             <div class="navbar-button-icon home-icon">
               <div class="bar-home-icon"></div>
@@ -155,23 +155,28 @@
         <div class="w-form">
           <form id="email-form" name="email-form" data-name="Email Form" action="#">
             <div>
+              <label class="label-form" for="recoredno-field">MEDICAL RECORED NO.</label>
+              <input class="w-input input-form" id="recoredno-field" type="number" name="recoredno" data-name="recoredno" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
               <label class="label-form" for="full-name-field">FULL NAME</label>
               <input class="w-input input-form" id="full-name-field" type="text" name="full-name" data-name="full-name" required="required">
               <div class="separator-fields"></div>
             </div>
             <div>
-              <label class="label-form" for="email-field">EMAIL</label>
-              <input class="w-input input-form" id="email-field" type="email" name="email" data-name="email" required="required">
-              <div class="separator-fields"></div>
-            </div>
-            <div>
-              <label class="label-form" for="password-ield">PASSWORD</label>
-              <input class="w-input input-form" id="password-ield" type="password" name="password" data-name="password" required="required">
+              <label class="label-form" for="phone-field">PHONE</label>
+              <input class="w-input input-form" id="phone-field" type="number" name="phone" data-name="phone" required="required">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="birthday-field">BIRTHDAY</label>
-              <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required">
+              <input class="w-input input-form" id="birthday-field" type="date" name="birthday" data-name="birthday" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="duedate-field">EXPECTED DATE OF BIRTH</label>
+              <input class="w-input input-form" id="duedate-field" type="date" name="duedate" data-name="duedate" required="required">
               <div class="separator-fields"></div>
             </div>
             <div>
@@ -195,6 +200,16 @@
                   </div>
                 </div>
               </div>
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="email-field">EMAIL</label>
+              <input class="w-input input-form" id="email-field" type="email" name="email" data-name="email" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="password-ield">PASSWORD</label>
+              <input class="w-input input-form" id="password-ield" type="password" name="password" data-name="password" required="required">
               <div class="separator-fields"></div>
             </div>
             <div>
