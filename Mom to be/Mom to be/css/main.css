@@ -536,6 +536,10 @@ input[type="time"]{
   border-color: #db95b8;
   background-color: #db95b8;
 }
+.radio-bullet-replacement.twins.checked {
+  border-color: #d8b0fc;
+  background-color: #d8b0fc;
+}
 .checkbox-field {
   position: relative;
   float: right;
