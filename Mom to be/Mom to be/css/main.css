@@ -536,6 +536,10 @@ input[type="time"]{
   border-color: #db95b8;
   background-color: #db95b8;
 }
+.radio-bullet-replacement.twins.checked {
+  border-color: #d8b0fc;
+  background-color: #d8b0fc;
+}
 .checkbox-field {
   position: relative;
   float: right;
@@ -682,7 +686,7 @@ input[type="time"]{
   text-decoration: none;
 }
 .toolbar-top-button.w--current {
-  border-bottom-color: #4fd2c2;
+  border-bottom-color: #b30059;
   background-color: white;
 }
 .tabs-content {
@@ -702,26 +706,26 @@ input[type="time"]{
 }
 .group-image {
   height: 164px;
-  background-image: url('../images/Y51aFguqRcGTgsYRYBXV_20140104_085932.jpg');
+  background-image: url('../images/ptest.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .group-image.bg1 {
-  background-image: url('../images/3wBPUcDrR9KaduD3PvkY_DSC_0915.jpg');
+  background-image: url('../images/ultrasound.jpg');
 }
 .group-image.bg2 {
-  background-image: url('../images/photo-1413977886085-3bbbf9a7cf6e.jpg');
+  background-image: url('../images/Navidoxine1.png');
 }
 .group-image.bg3 {
-  background-image: url('../images/photo-1421757295538-9c80958e75b0.jpg');
+  background-image: url('../images/Folic Acid.jpg');
 }
 .group-image.bg4 {
-  background-image: url('../images/photo-1429032021766-c6a53949594f (1).jpg');
+  background-image: url('../images/Iron.jpg');
   background-position: 100% 50%;
 }
 .group-image.bg5 {
-  background-image: url('../images/nomad.jpg');
+  background-image: url('../images/supplement.jpg');
 }
 .group-title {
   height: 68px;

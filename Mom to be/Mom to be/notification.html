@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>medecine</title>
+  <title>Notifications</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -18,8 +18,8 @@
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/w.png">
-  <link rel="apple-touch-icon" href="images/w.png">
+  <link rel="shortcut icon" type="image/x-icon" href="images/W.png">
+  <link rel="apple-touch-icon" href="images/W.png">
 
   <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -31,7 +31,8 @@
         <div class="w-container">
           <nav class="w-nav-menu nav-menu" role="navigation">
             <div class="nav-menu-header">
-              <div class="logo">Add you medecine</div>
+              <div class="logo">Washington</div>
+              <div class="slogan">All you need is here.</div>
             </div>
             <a class="w-clearfix w-inline-block nav-menu-link" href="index.html" data-load="1">
               <div class="icon-list-menu">
@@ -139,87 +140,76 @@
             <div class="separator-bottom"></div>
           </nav>
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">Add you medecine</div>
+          <div class="navbar-title">Notifications</div>
           <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
             <div class="navbar-button-icon home-icon">
               <div class="bar-home-icon"></div>
               <div class="bar-home-icon"></div>
               <div class="bar-home-icon"></div>
+
             </div>
           </div>
         </div>
       </div>
-      <div class="body padding">
-        <div class="logo-login smaller"></div>
-        <div class="w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" action="#">
-            <div>
-              <input type="text" class="w-input input-form enter" value="Enter Name" "label-form">
-              <input type="time" class="w-input input-form enter right" value="Enter Date" "label-form">
-              </div>
-
-              <div class="separator-fields"></div>
-
-            <div>
-              <div class="w-clearfix ">
-                <label class="label-form middle" for="email">Once a day</label>
-                <div class="w-clearfix radios-container">
-
-                  <div class="w-radio w-clearfix radio-button">
-                    <div class="radio-bullet-replacement girl  ckecked"></div>
-                    <input class="w-radio-input radio-bullet" id="node" type="radio" name="Radio1" value="0" data-name="Radio1">
-                  </div>
+      <div class="body">
+        <ul class="list list-messages">
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/report.png">
                 </div>
-                </div>
-                <div class="w-clearfix input-form ">
-                  <label class="label-form middle" for="email">Twice a day</label>
-                  <div class="w-clearfix radios-container">
-
-                    <div class="w-radio w-clearfix radio-button">
-                      <div class="radio-bullet-replacement girl  ckecked"></div>
-                      <input class="w-radio-input radio-bullet" id="node1" type="radio" name="Radio1" value="0" data-name="Radio1">
-                    </div>
-
-                  </div>
-                  </div>
-
               </div>
-              <div class="separator-fields"></div>
+              <div class="column-right">
+                <div class="message-title">Report</div>
+                <div class="message-text">Your lab test is available</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/pills.png">
+                </div>
+              </div>
+              <div class="column-right">
+                <div class="message-title">Medicines</div>
+                <div class="message-text">Time to take your suppliments</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-message" data-ix="list-item">
+              <div class="w-clearfix column-left">
+                <div class="image-message"><img src="images/news.png">
+                </div>
+              </div>
+              <div class="column-right">
+                <div class="message-title">Articles</div>
+                <div class="message-text">A new article is available</div>
+              </div>
+            </a>
+          </li>
+        </li>
+        <li class="list-message" data-ix="list-item">
+            <div class="w-clearfix column-left">
+              <div class="image-message"><img src="images/chat.png">
+              </div>
             </div>
-            <div>
-              <div class="w-clearfix input-form one-line">
-                <label class="label-form middle" for="email">NOTIFICATIONS</label>
-                <div class="w-clearfix radios-container">
-                  <div class="w-checkbox w-clearfix checkbox-field">
-                    <div class="checkbox-handle"></div>
-                    <input class="w-checkbox-input checkbox-input" id="checkbox" type="checkbox" name="checkbox" data-name="Checkbox">
-                    <label class="w-form-label checkbox-label" for="checkbox"></label>
-                  </div>
-                </div>
-              </div>
-              <div class="separator-fields"></div>
+            <div class="column-right">
+              <div class="message-title">Chat</div>
+              <div class="message-text">A new message</div>
             </div>
-            <div>
-              <div class="w-clearfix input-form one-line last">
-                <label class="label-form middle" for="email">UPDATES</label>
-                <div class="w-clearfix radios-container">
-                  <div class="w-checkbox w-clearfix checkbox-field">
-                    <div class="checkbox-handle checked"></div>
-                    <input class="w-checkbox-input checkbox-input" id="checkbox-2" type="checkbox" name="checkbox-2" data-name="Checkbox 2" checked="checked">
-                    <label class="w-form-label checkbox-label checked" for="checkbox-2"></label>
-                  </div>
-                </div>
+          </a>
+        </li>
+        <li class="list-message" data-ix="list-item">
+            <div class="w-clearfix column-left">
+              <div class="image-message"><img src="images/calendar.png">
               </div>
-              <div class="separator-fields"></div>
             </div>
-          </form>
-          <div class="w-form-done">
-            <p>Thank you! Your submission has been received!</p>
-          </div>
-          <div class="w-form-fail">
-            <p>Oops! Something went wrong while submitting the form</p>
-          </div>
-        </div>
+            <div class="column-right">
+              <div class="message-title">Appointments</div>
+              <div class="message-text">Your Appointment is confirmed</div>
+            </div>
+          </a>
+        </li>
+        </ul>
       </div>
     </div>
     <div class="page-content loading-mask" id="new-stack">
