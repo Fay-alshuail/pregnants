@@ -14,13 +14,13 @@ $_SESSION['username_s']=$username;
  mysql_query('SET CHARACTER SET utf8');
 
 
-  $sql =("SELECT * FROM `patients` WHERE `patient_ID` = '$username'");
+  $sql =("SELECT * FROM `patients` WHERE `medical_record_NO` = '$username'");
   $result = mysql_query($sql) or die(mysql_error());
   $num = mysql_num_rows($result);
 
 
   if ($row = mysql_fetch_assoc($result)){
-    header('Location:settings.php');
+    header('Location:profile.php');
 }
     else  {
 echo "error";
