@@ -20,7 +20,7 @@ $_SESSION['username_s']=$username;
 
 
   if ($row = mysql_fetch_assoc($result)){
-    header('Location:profile.php');
+    header('Location:profile.html');
 }
     else  {
 echo "error";
