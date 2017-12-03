@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>MY MEDICINE</title>
+  <title>Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -120,7 +120,7 @@
             <div class="separator-bottom"></div>
           </nav>
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">MY MEDICINE</div>
+          <div class="navbar-title">PROFILE</div>
           <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
             <div class="navbar-button-icon home-icon">
               <div class="bar-home-icon"></div>
@@ -128,54 +128,109 @@
               <div class="bar-home-icon"></div>
             </div>
           </div>
-          <a class="w-inline-block navbar-button right" href="addnew.html" data-loader="1">
-            <div class="navbar-button-icon icon ion-ios-plus-empty"></div>
-          </a>
         </div>
       </div>
-      <div class="body">
-        <div class="hero-image">
-          <div class="hero-image-title">
-            <h2>MY PILLS</h2>
-            <div class="sub-title-small">&nbsp;2 of 4 pills &nbsp;|&nbsp;&nbsp;50% completed</div>
+      <div class="body padding">
+        <div class="logo-login smaller"></div>
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" action="#">
+            <div>
+              <label class="label-form" for="recoredno-field">MEDICAL RECORED NO.</label>
+              <input class="w-input input-form" id="recoredno-field" type="number" name="recoredno" data-name="recoredno" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="full-name-field">FULL NAME</label>
+              <input class="w-input input-form" id="full-name-field" type="text" name="full-name" data-name="full-name" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="phone-field">PHONE</label>
+              <input class="w-input input-form" id="phone-field" type="number" name="phone" data-name="phone" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="birthday-field">BIRTHDAY</label>
+              <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="duedate-field">EXPECTED DATE OF BIRTH</label>
+              <input class="w-input input-form" id="duedate-field" type="text" name="duedate" data-name="duedate" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="baby-Name-field">MY BABY'S NAME</label>
+              <input class="w-input input-form" id="baby-Name-field" type="text" name="baby-Name" data-name="baby-Name" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <div class="w-clearfix input-form one-line">
+                <label class="label-form middle" for="email">GENDER</label>
+                <div class="w-clearfix radios-container">
+                  <div class="w-radio w-clearfix radio-button">
+                    <div class="radio-bullet-replacement "></div>
+                    <input class="w-radio-input radio-bullet" id="node" type="radio" name="Radio1" value="1" data-name="Radio1">
+                    <label class="w-form-label" for="node">BOY</label>
+                  </div>
+                  <div class="w-radio w-clearfix radio-button">
+                    <div class="radio-bullet-replacement girl  ckecked"></div>
+                    <input class="w-radio-input radio-bullet" id="node-2" type="radio" name="Radio1" value="0" data-name="Radio1">
+                    <label class="w-form-label" for="node-2">GIRL</label>
+                  </div>
+                  <div class="w-radio w-clearfix radio-button">
+                    <div class="radio-bullet-replacement twins "></div>
+                    <input class="w-radio-input radio-bullet" id="node-2" type="radio" name="Radio1" value="0" data-name="Radio1">
+                    <label class="w-form-label" for="node-2">TWINS</label>
+                  </div>
+                </div>
+              </div>
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="email-field">EMAIL</label>
+              <input class="w-input input-form" id="email-field" type="email" name="email" data-name="email" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <label class="label-form" for="password-ield">PASSWORD</label>
+              <input class="w-input input-form" id="password-ield" type="password" name="password" data-name="password" required="required">
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <div class="w-clearfix input-form one-line">
+                <label class="label-form middle" for="email">NOTIFICATIONS</label>
+                <div class="w-clearfix radios-container">
+                  <div class="w-checkbox w-clearfix checkbox-field">
+                    <div class="checkbox-handle"></div>
+                    <input class="w-checkbox-input checkbox-input" id="checkbox" type="checkbox" name="checkbox" data-name="Checkbox">
+                    <label class="w-form-label checkbox-label" for="checkbox"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="separator-fields"></div>
+            </div>
+            <div>
+              <div class="w-clearfix input-form one-line last">
+                <label class="label-form middle" for="email">UPDATES</label>
+                <div class="w-clearfix radios-container">
+                  <div class="w-checkbox w-clearfix checkbox-field">
+                    <div class="checkbox-handle checked"></div>
+                    <input class="w-checkbox-input checkbox-input" id="checkbox-2" type="checkbox" name="checkbox-2" data-name="Checkbox 2" checked="checked">
+                    <label class="w-form-label checkbox-label checked" for="checkbox-2"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="separator-fields"></div>
+            </div>
+          </form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
           </div>
-          <div class="hero-image-img"><img src="images/pills.jpg">
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form</p>
           </div>
         </div>
-        <ul class="list">
-          <li class="list-item grey highlighted" data-ix="list-item">
-            <a class="w-clearfix w-inline-block highlighted" href="#">
-              <div class="icon-list highlighted">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Iron Pills</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Supplements</div>
-            </a>
-          </li>
-          <li class="list-item grey highlighted" data-ix="list-item">
-            <a class="w-clearfix w-inline-block highlighted" href="#">
-              <div class="icon-list highlighted">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Navidoxine</div>
-            </a>
-          </li>
-          <li class="list-item" data-ix="list-item">
-            <a class="w-clearfix w-inline-block" href="#">
-              <div class="icon-list">
-                <div class="icon ion-ios-checkmark-empty"></div>
-              </div>
-              <div class="title-list">Folic Acid</div>
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
     <div class="page-content loading-mask" id="new-stack">
