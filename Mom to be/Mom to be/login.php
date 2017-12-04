@@ -34,16 +34,16 @@
         <div class="logo-login"></div>
         <div class="bottom-section padding">
           <div class="w-form">
-            <form id="submit-form" name="Nid-form" data-name="Nid Form" data-redirect="settings.html" action="#">
+            <form  action="wlogcheck.php" method="post" >
               <div>
                 <label class="label-form" for="Nid-field">USERNAME</label>
-                <input class="w-input input-form" id="Nid-field" type="number" name="Nid" data-name="Nid" required="required">
+                <input class="w-input input-form" id="Nid-field" type="number" name="username" data-name="Nid" required="required">
                 <div class="separator-fields"></div>
               </div>
               <div>
                 <label class="label-form" for="Nid">PASSWORD</label>
                 <div class="w-clearfix block-input-combined">
-                  <input class="w-input input-form left" id="password-field" type="password" name="password" data-name="password" required="required"><a class="right-input-link" href="forgot.html" data-load="1">Forgot Password</a>
+                  <input class="w-input input-form left" id="password-field" type="password"name="password" data-name="password" required="required"><a class="right-input-link" href="forgot.html" data-load="1">Forgot Password</a>
                 </div>
                 <div class="separator-button-input"></div>
               </div>

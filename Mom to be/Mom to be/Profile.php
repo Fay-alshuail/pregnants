@@ -178,19 +178,17 @@ while($row=mysql_fetch_array($result))
                 <label class="label-form middle" for="email">GENDER</label>
                 <div class="w-clearfix radios-container">
                   <div class="w-radio w-clearfix radio-button">
-                    <div class="radio-bullet-replacement "></div>
-                    <input class="w-radio-input radio-bullet" id="node" type="radio" name="Radio1" value="1" data-name="Radio1">
-                    <label class="w-form-label" for="node">BOY</label>
+                    <div class="radio-bullet-replacement ckecked "  ></div>
+                    <input class="w-radio-input radio-bullet" id="node" type="radio" name="Radio1"  value="" >BOY</input>
                   </div>
+
                   <div class="w-radio w-clearfix radio-button">
-                    <div class="radio-bullet-replacement girl  ckecked"></div>
-                    <input class="w-radio-input radio-bullet" id="node-2" type="radio" name="Radio1" value="0" data-name="Radio1">
-                    <label class="w-form-label" for="node-2">GIRL</label>
+                    <div class="radio-bullet-replacement girl checked "></div>
+                    <input class="w-radio-input radio-bullet" id="node-2" type="radio" name="Radio1" value="" >GIRL</input>
                   </div>
                   <div class="w-radio w-clearfix radio-button">
                     <div class="radio-bullet-replacement twins "></div>
-                    <input class="w-radio-input radio-bullet" id="node-2" type="radio" name="Radio1" value="0" data-name="Radio1">
-                    <label class="w-form-label" for="node-2">TWINS</label>
+                    <input class="w-radio-input radio-bullet" id="node-2" type="radio" name="Radio1" value="" >TWINS</input>
                   </div>
                 </div>
               </div>
