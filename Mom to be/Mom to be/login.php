@@ -36,7 +36,7 @@
           <div class="w-form">
             <form  action="wlogcheck.php" method="post" >
               <div>
-                <label class="label-form" for="Nid-field">USERNAME</label>
+                  <label class="label-form" for="Nid-field">MEDICAL RECORD NO </label>
                 <input class="w-input input-form" id="Nid-field" type="number" name="username" data-name="Nid" required="required">
                 <div class="separator-fields"></div>
               </div>
