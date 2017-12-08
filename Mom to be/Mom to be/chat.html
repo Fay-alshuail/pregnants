@@ -17,6 +17,11 @@
       }
     });
   </script>
+  <script>
+function goBack() {
+    window.history.back()
+}
+</script>
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/W.png">
   <link rel="apple-touch-icon" href="images/W.png">
@@ -30,7 +35,7 @@
         <div class="w-container">
           <div class="wrapper-mask" data-ix="menu-mask"></div>
           <div class="navbar-title">Chat</div>
-          <a class="w-inline-block navbar-button" href="history.go(-1);" data-load="1">
+          <a class="w-inline-block navbar-button"  onclick="goBack()" data-load="1">
             <div class="navbar-button-icon icon ion-ios-arrow-thin-left"></div>
           </a>
         </div>
