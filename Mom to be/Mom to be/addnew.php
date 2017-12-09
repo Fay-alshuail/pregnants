@@ -17,6 +17,7 @@
         families: ["Montserrat:400,700"]
       }
     });
+    
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/w.png">
