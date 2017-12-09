@@ -145,32 +145,32 @@ while($row=mysql_fetch_array($result))
           <form id="email-form" name="email-form" data-name="Email Form" action="#">
             <div>
               <label class="label-form" for="recoredno-field">MEDICAL RECORED NO.</label>
-              <input class="w-input input-form" id="recoredno-field" type="number" name="recoredno" data-name="recoredno" required="required" value="<?php echo $row["medical_record_NO"];?>">
+              <input class="w-input input-form" id="recoredno-field" readOnly="true" type="number" name="recoredno" data-name="recoredno" required="required" value="<?php echo $row["medical_record_NO"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="full-name-field">FULL NAME</label>
-              <input class="w-input input-form" id="full-name-field" type="text" name="full-name" data-name="full-name" required="required"value="<?php echo $row["patient_name"];?>">
+              <input class="w-input input-form" id="full-name-field" readOnly="true"type="text" name="full-name" data-name="full-name" required="required"value="<?php echo $row["patient_name"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="phone-field">PHONE</label>
-              <input class="w-input input-form" id="phone-field" type="number" name="phone" data-name="phone" required="required"value="<?php echo $row["Patient_phone"];?>">
+              <input class="w-input input-form" id="phone-field" type="number"readOnly="true" name="phone" data-name="phone" required="required"value="<?php echo $row["Patient_phone"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="birthday-field">BIRTHDAY</label>
-              <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required"value="<?php echo $row["birthday"];?>">
+              <input class="w-input input-form" id="birthday-field" type="text"readOnly="true" name="birthday" data-name="birthday" required="required"value="<?php echo $row["birthday"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="duedate-field">EXPECTED DATE OF BIRTH</label>
-              <input class="w-input input-form" id="duedate-field" type="text" name="duedate" data-name="duedate" required="required"value="<?php echo $row["expected_dob"];?>">
+              <input class="w-input input-form" id="duedate-field" type="text"readOnly="true" name="duedate" data-name="duedate" required="required"value="<?php echo $row["expected_dob"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="baby-Name-field">MY BABY'S NAME</label>
-              <input class="w-input input-form" id="baby-Name-field" type="text" name="baby-Name" data-name="baby-Name" required="required"value="<?php echo $row["baby_name"];?>">
+              <input class="w-input input-form" id="baby-Name-field" type="text"readOnly="true" name="baby-Name" data-name="baby-Name" required="required"value="<?php echo $row["baby_name"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
@@ -196,12 +196,12 @@ while($row=mysql_fetch_array($result))
             </div>
             <div>
               <label class="label-form" for="email-field">EMAIL</label>
-              <input class="w-input input-form" id="email-field" type="email" name="email" data-name="email" required="required"value="<?php echo $row["email"];?>">
+              <input class="w-input input-form" id="email-field"readOnly="true" type="email" name="email" data-name="email" required="required"value="<?php echo $row["email"];?>">
               <div class="separator-fields"></div>
             </div>
             <div>
               <label class="label-form" for="password-ield">PASSWORD</label>
-              <input class="w-input input-form" id="password-ield" type="text" name="password" data-name="password" required="required"value="<?php echo $row["password"];?>">
+              <input class="w-input input-form" id="password-ield" type="text"readOnly="true" name="password" data-name="password" required="required"value="<?php echo $row["password"];?>">
               <div class="separator-fields"></div>
             </div>
           <?php } ?>

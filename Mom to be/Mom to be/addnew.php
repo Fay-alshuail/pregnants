@@ -17,8 +17,13 @@
         families: ["Montserrat:400,700"]
       }
     });
-    
+
   </script>
+  <script>
+function goBack() {
+    window.history.back()
+}
+</script>
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/w.png">
   <link rel="apple-touch-icon" href="images/w.png">
@@ -33,10 +38,10 @@
         <div class="w-container">
           <div class="wrapper-mask" data-ix="menu-mask"></div>
           <div class="navbar-title">Add New Medecine</div>
-          <a class="w-inline-block navbar-button right bigger" href="todo-list.html" data-load="1">
+          <a class="w-inline-block navbar-button right bigger"  onclick="submit" data-load="1">
             <div class="navbar-button-icon icon ion-ios-checkmark-empty"></div>
           </a>
-          <a class="w-inline-block navbar-button" href="todo-list.html" data-load="1">
+          <a class="w-inline-block navbar-button" onclick="goBack()"  data-load="1">
             <div class="navbar-button-icon icon ion-ios-close-empty"></div>
           </a>
         </div>
@@ -135,7 +140,6 @@
               </div>
               <div class="separator-fields"></div>
             </div>
-            <input type="submit" class="navbar-button-icon icon ion-ios-checkmark-empty">
           </form>
           <div class="w-form-done">
             <p>Thank you! Your submission has been received!</p>
