@@ -17,6 +17,5 @@ $sql="INSERT INTO `medecines` (`medecine_name`, `descreption`, `start_date`, `du
 if (mysql_query($sql)) {
   echo "<script type='text/javascript'>alert('good');</script>";
 }
-echo "<script type='text/javascript'>alert('error');</script>";
 
 ?>
