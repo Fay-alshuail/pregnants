@@ -138,6 +138,7 @@ function goBack() {
                   </div>
                 </div>
               </div>
+              <input type="submit">
               <div class="separator-fields"></div>
             </div>
           </form>

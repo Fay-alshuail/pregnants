@@ -56,7 +56,7 @@ function goBack() {
         <div class="col-xss-4">
           <div id="glob-data" data-toggle="calendar"></div>
           <br>
-          <center>  <input type="submit" value="Send"></center>
+          <input class="w-button action-button" type="submit" value="send" data-wait="Please wait...">
         </div>
         <div class="col-xss-8">
 
