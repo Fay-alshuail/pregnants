@@ -100,7 +100,7 @@ while($row=mysql_fetch_array($result))
                 </div>
                 <div class="nav-menu-titles">Pregnancy Stages</div>
               </a>
-              <a class="w-clearfix w-inline-block nav-menu-link" href="calender2.html" data-load="1">
+              <a class="w-clearfix w-inline-block nav-menu-link" href="calender2.php" data-load="1">
                 <div class="icon-list-menu">
                   <div><img src="icons/calendar.png"></div>
                 </div>

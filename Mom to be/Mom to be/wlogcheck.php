@@ -1,12 +1,16 @@
+
 <?php
 include 'config.php';
 session_start();
 
 
 
+
 //Get username and password from the form.
-$username = $_POST['username'];
-$password = $_POST['password'];
+
+
+$username = $_GET['username'];
+$password = $_GET['password'];
 $_SESSION['username_s']=$username;
 
  mysql_query("SET NAMES 'utf8'");

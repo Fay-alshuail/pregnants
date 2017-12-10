@@ -1233,9 +1233,9 @@ cursor:pointer;
 
 .datetimepicker table tbody td::selection {
 background:red;
-cursor:pointer;
+cursor : auto;
 }
 .datetimepicker table tbody td:hover.unavailable {
-background:#C55762;
+background:red;
 cursor:not-allowed;
 }

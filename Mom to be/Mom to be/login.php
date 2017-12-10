@@ -34,7 +34,7 @@
         <div class="logo-login"></div>
         <div class="bottom-section padding">
           <div class="w-form">
-            <form  action="wlogcheck.php" method="post" >
+            <form  action="wlogcheck.php" method="get" >
               <div>
                   <label class="label-form" for="Nid-field">MEDICAL RECORD NO </label>
                 <input class="w-input input-form" id="Nid-field" type="number" name="username" data-name="Nid" required="required">
