@@ -27,6 +27,8 @@ $_SESSION['username_s']=$username;
 }
     else  {
 echo "error";
+header('Location:login.php');
+
 }
 
 ?>
